@@ -6,4 +6,30 @@
 .toppromo .closetop{display:block;width:15px;height:15px;position:absolute;
 	top:6px;left:50%;margin-left:580px;}
 
-/*------------------------------------------------*/
+/*---------------------slide_show 轮播图  ---------------------------*/
+.slide_show{width:100%;height:480px;position:relative;}
+.indexW{width:1200px;height:480px;position:relative;margin:0 auto;}
+.indexW .index_show{position:position;width:1200px;height:480px;overflow:hidden;}
+.index_show .index_slide{position:absolute;width:10800px;}
+.index_show .index_slide img{width:1200px;height:480px;left:0;top:0;}
+.index_show .index_slide li{float:left;}
+.index_show .cur_list{position:absolute;bottom:20px;left:50%;margin-left:-165px;}
+.index_show .cur_list .cur{display:inline-block;height:25px;width:25px;border-radius:25px;text-align:center;line-height:25px;margin-right:10px;background:#646464;color:#fff;opacity:.7;}
+
+
+.indexW .indexW_right{position:absolute;right:0;top:0;width:260px;overflow:hidden;}
+.indexW .indexW_right_a{float:right;position:relative;padding:0;margin:0;overflow:hidden;width:260px}
+.indexW .indexW_right_a img{display:block;margin:0;padding:0;}
+.indexW .indexW_right_a .overlay{position:absolute;background:#f0f0f0;left:0;top:0;width:100%;height:100%;z-index:2;opacity:.5;display:none;}
+
+
+
+
+
+
+
+
+
+
+
+

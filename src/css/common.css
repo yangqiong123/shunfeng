@@ -91,29 +91,33 @@ b{width:8px;height:4px;display:inline-block;margin-left:5px;
 .categories{float:left;width:200px;background:#679801;height:34px;text-align:left;position:relative}
 .categories_list{width:200px;height:32px;line-height:32px;display:block;text-align:center;font-weight:bold;font-size:14px;color:#fff;}
 .allSort{position:absolute;z-index:3;width:200px;height:480px;background:#76ac25;}
-.bookSort{padding:8px 0 0 15px;width:185px;heiht:472px;}
+.bookSort{padding:8px 0 0 15px;width:185px;height:472px;}
 .bookSort .item{width:170px;height:58px;position:relative;padding-left:15px;}
+.item i{position:absolute;display:block;width:16px;height:58px;background:url(img/bg_bookSort.png) no-repeat 0 6px;top:0;left:-5px;}
+
 .item a{color:#dde080;margin-right:8px;}
 .item p a{display:block;font-size:14px;line-height:22px;color:#fff;}
 
-.item .item_content{display:none;position:absolute;left:185px;width:560px;height:480px;background:;}
+.item .item_content{display:none;position:absolute;left:185px;width:560px;height:480px;z-index:10;}
 .item .item_content a{color:#696969;margin:0 5px;}
 .item .item_content .ft{font-weight:bold;display:inline-block;width:104px;text-align:right;color:#76ac25;}
 .item .item_content .ft_hot{color:#fb893d;}
 .item .item_content div{padding:10px 0;}
 
-.item .hover_01{background:rgba(255,255,255,0.7) url(img/bg_item01.jpg) no-repeat 0 360px;top:-8px;}
-.item .hover_02{background:rgba(255,255,255,0.7) url(img/bg_item02.jpg) no-repeat 0 360px;top:-66px;}
-.item .hover_03{background:rgba(255,255,255,0.7) url(img/bg_item03.jpg) no-repeat 0 360px;top:-124px;}
-.item .hover_04{background:rgba(255,255,255,0.7) url(img/bg_item04.jpg) no-repeat 0 360px;top:-182px;}
-.item .hover_05{background:rgba(255,255,255,0.7) url(img/bg_item05.jpg) no-repeat 0 360px;top:-240px;}
-.item .hover_06{background:rgba(255,255,255,0.7) url(img/bg_item06.jpg) no-repeat 0 360px;top:-298px;}
-.item .hover_07{background:rgba(255,255,255,0.7) url(img/bg_item07.jpg) no-repeat 0 360px;top:-356px;}
-.item .hover_08{background:rgba(255,255,255,0.7) url(img/bg_item08.jpg) no-repeat 0 360px;top:-414px;}
+.item .hover_01{background:rgba(255,255,255,0.9) url(img/bg_item01.jpg) no-repeat 0 360px;top:-8px;}
+.item .hover_02{background:rgba(255,255,255,0.9) url(img/bg_item02.jpg) no-repeat 0 360px;top:-66px;}
+.item .hover_03{background:rgba(255,255,255,0.9) url(img/bg_item03.jpg) no-repeat 0 360px;top:-124px;}
+.item .hover_04{background:rgba(255,255,255,0.9) url(img/bg_item04.jpg) no-repeat 0 360px;top:-182px;}
+.item .hover_05{background:rgba(255,255,255,0.9) url(img/bg_item05.jpg) no-repeat 0 360px;top:-240px;}
+.item .hover_06{background:rgba(255,255,255,0.9) url(img/bg_item06.jpg) no-repeat 0 360px;top:-298px;}
+.item .hover_07{background:rgba(255,255,255,0.9) url(img/bg_item07.jpg) no-repeat 0 360px;top:-356px;}
+.item .hover_08{background:rgba(255,255,255,0.9) url(img/bg_item08.jpg) no-repeat 0 360px;top:-414px;}
 .item:hover .item_content{display:block;}
 .item:hover a{color:#76ac25;}
+.item:hover .item_content a{color:#696969;}
+.item:hover .item_content .ft_hot{color:#fb893d;}
 .item:hover{background:#fff;}
-
+.item:hover i{background:#fff;}
 
 
 .menu{width:1000px;float:right;position:relative;}
@@ -122,6 +126,8 @@ b{width:8px;height:4px;display:inline-block;margin-left:5px;
 .menu .munu_idx a{color:#690;}
 .menu .munu_last{float:right;padding:0;}
 .menu .munu_last a{float:right;padding:0;}
+
+/*-------------------------  页脚 ------------------------------- */
 
 
 
