@@ -101,6 +101,20 @@
 
 
 .share{width:420px;float:left;border-bottom:1px solid #f0f0f0;margin:0 20px 0 0;height:200px;overflow:hidden;}
+.srollbox{margin-top:20px;position:relative;height:122px;overflow:hidden;}
+.srollbox ul{position:absolute;left:0;top:0;}
+.share li {height:58px;overflow: hidden;border-bottom: 1px dotted #e8e8e8;margin-bottom: 6px;vertical-align: middle;}
+.share .share_c{height:50px;overflow:hidden;}
+.share .share_c img{width:50px;height:50px;}
+.share .share_c a{color:#FA9600;}
+.share .share_c .l{float:left;}
+.share .share_c .r{float:right;width:370px;overflow:hidden;}
+.share .share_c .r p{padding-left:20px;overflow:hidden;height:22px;line-height:22px;}
+.share .share_c .r .s_title{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.share .share_c .r .s_title a{color:#666;}
+
+
+
 .youpin{border:1px solid #E8E8E8;float:right;height:199px;width:337px;}
 
 
