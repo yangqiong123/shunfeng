@@ -181,6 +181,23 @@ b{width:8px;height:4px;display:inline-block;margin-left:5px;
 .footer .siteinfo span a{display:inline-block;margin-right:5px;}
 .footer .siteinfo span{padding-left:6px;}
 
+/*------------固定位置---------------*/
+.side-fixed{width:44px;height:220px;position:fixed;bottom:20px;right:10px;}
+.side-fixed .fixed-c{width:44px;height:44px;position:relative;margin-top:6px;}
+.side-fixed .s-cart{background:url(img/productList.png) no-repeat 0 -45px;width:42px;height:42px;border:1px solid #dadada;display:block;}
+.side-fixed .s-cart-num{position: absolute;top: -5px;right: -9px;width: 34px;text-align: center;color: #FA9600;border: 1px solid #dedede;height: 18px;line-height: 18px;border-radius: 10px;background-color: white;overflow: hidden;}
+.side-fixed .s-cart:hover{background-position:0 -147px;}
+
+.side-fixed .s-guang{background:url(img/productList.png) no-repeat -42px -82px;width: 42px;height: 42px;display: block;border: 1px solid #dadada;}
+.side-fixed .s-guang:hover{background-position:-42px -184px;}
+
+.side-fixed .s-app{background: url(img/productList.png) no-repeat -42px -40px;width:42px;height:42px;display: block;border: 1px solid #dadada;text-indent: -9999px;overflow: hidden;}
+.side-fixed .s-app:hover{background-position:-42px -142px;}
+
+.side-fixed .s-top{width:42px;height: 42px;background: url(img/productList.png) no-repeat 0 -82px;border: 1px solid #dadada;display:block;}
+.side-fixed .s-top:hover{background-position:0px -184px;}
+
+
 
 
 

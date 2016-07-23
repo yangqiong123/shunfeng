@@ -99,7 +99,6 @@
 .zhiwei .info p{background: url(img/dian.jpg) no-repeat scroll left center rgba(0, 0, 0, 0);height: 20px;overflow: hidden;padding-left: 10px;width: 205px;line-height: 20px;}
 
 
-
 .share{width:420px;float:left;border-bottom:1px solid #f0f0f0;margin:0 20px 0 0;height:200px;overflow:hidden;}
 .srollbox{margin-top:20px;position:relative;height:122px;overflow:hidden;}
 .srollbox ul{position:absolute;left:0;top:0;}
@@ -114,14 +113,20 @@
 .share .share_c .r .s_title a{color:#666;}
 
 
-
 .youpin{border:1px solid #E8E8E8;float:right;height:199px;width:337px;}
+.ucaption {font-size:16px;font-weight:bold;margin:0 auto;width:300px;height:25px;line-height:25px;padding:14px 0 10px 0;border-bottom:1px solid #E8E8E8;}
+.ucaption p{background:url(img/youpin.jpg) no-repeat center left;padding:0 0 0 24px;float:left;color:#323232;}
+.ucaption h2{cursor:pointer;float:right;width:60px;height:29px;background:url(img/foot_bottom.png) no-repeat -3px -97px;}
+.ucaption h2:hover{background-position:-3px -123px;}
+.youpin .upic{margin:20px auto;width:300px;overflow:hidden;margin-bottom:0;}
+.youpin .upic span{float:left;width:70px;text-align:center;margin-right:5px;display:inline-block;}
+.youpin .upic img{width:70px;height:70px;display:block;margin:0;padding:0;border:0;}
 
-
-
-
-
-
+.mailDy{width:302px;margin:0 auto;padding:15px 0 0 0;overflow:hidden;}
+.mainlDYitem span{float:left;margin-right:2px;}
+.mainlDYitem .i{width:130px;height:22px;line-height:22px;padding:0 2px;border:1px solid #cccccc;margin-right:2px;display:inline;color:#969696;}
+.mainlDYitem .btn{background:url(img/foot_bottom.png) no-repeat -118px -106px;height:24px;width:44px;display:block;}
+.mainlDYitem .diqu{width:50px;height:24px;border:1px solid #ccc;}
 
 
 
