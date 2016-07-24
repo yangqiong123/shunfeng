@@ -32,7 +32,7 @@ $(function(){
 	};
 
 	function show(){
-		if(index >= 8){
+		if(index >= $li.length-1){
 		index_slide.css({left:0});
 			index = 0;
 		};
