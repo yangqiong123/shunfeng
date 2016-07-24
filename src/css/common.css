@@ -197,7 +197,16 @@ b{width:8px;height:4px;display:inline-block;margin-left:5px;
 .side-fixed .s-top{width:42px;height: 42px;background: url(img/productList.png) no-repeat 0 -82px;border: 1px solid #dadada;display:block;}
 .side-fixed .s-top:hover{background-position:0px -184px;}
 
-
+.appDown{position: absolute;right:44px;bottom: 20px;width: 372px;overflow: hidden;}
+.appItem {position:relative;border-image-source: initial;border-image-slice: initial;border-image-width: initial;border-image-outset: initial;border-image-repeat: initial;bottom: 0px;border: 1px solid rgb(218, 218, 218);border-image-outset: initial;border-image-repeat: initial;width: 360px;background-color: white;}
+.appItem .sf-client {margin-bottom: 10px;margin-left: 50px;position: relative;text-align: left;}
+.appItem .client-img {width: 115px;height: 116px;overflow: hidden;background: url(img/header_logo.png) 0px -210px no-repeat;display: block;}
+.appItem i{position:absolute;width: 50px;height: 29px;left: 135px;top: 20px;background: url(img/header.png) -73px -93px no-repeat;display: block;}
+.appItem .client-txt{position: absolute;left: 145px;top:54px;text-align:left;}
+.appItem .client-txt em{display: block;line-height:20px;font-style:normal;}
+.appItem .client-txt strong {color: rgb(118, 172, 37);line-height: 20px;}
+.appItem .client-promo{height: 30px;background:url(img/header_logo.png) -116px -210px no-repeat rgb(252, 251, 228);text-align:center;color:rgb(250, 100, 0);font-size: 14px;font-weight: bold;line-height: 30px;}
+.appDown .cart-arr{right: -8px;position: absolute;margin-left: -1px;bottom: 63px;background:url(img/productList.png) -88px -88px no-repeat;width:8px;height:15px;}
 
 
 
