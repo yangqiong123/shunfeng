@@ -8,6 +8,14 @@ img{border:0;}
 a{text-decoration:none;color:#666666;}
 a:hover{text-decoration:none;}
 
+/*----------首屏焦点图------------*/
+.toppromo{width:100%;overflow:hidden;position:relative;}
+.toppromo .toppromoImg{width:100%;height:80px;margin:0 auto;display:block;}
+.toppromo .closetop{display:block;width:15px;height:15px;position:absolute;
+	top:6px;left:50%;margin-left:580px;}
+
+
+
 /* 头部导航 */
 b{width:8px;height:4px;display:inline-block;margin-left:5px;
 	background:url(img/header.png) no-repeat -86px -130px;}

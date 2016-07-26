@@ -1,3 +1,11 @@
+// 点击关闭头部活动页面
+	$('.closetop').on('click',function(){
+		$('.toppromo').slideUp(500);
+	});
+
+
+
+
 // 鼠标滚动事件
 	$(window).scroll(function(){
 		if($(document).scrollTop() > 0){

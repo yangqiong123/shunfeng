@@ -1,9 +1,4 @@
 $(function(){
-	// 点击关闭头部活动页面
-	$('.closetop').on('click',function(){
-		$('.toppromo').slideUp(500);
-	});
-
 	//主页面的轮播图
 	var indexW = $('.indexW');
 	var index_slide = indexW.find('.index_slide');

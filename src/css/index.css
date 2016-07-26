@@ -1,10 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-/*----------首屏焦点图------------*/
-.toppromo{width:100%;overflow:hidden;position:relative;}
-.toppromo .toppromoImg{width:100%;height:80px;margin:0 auto;display:block;}
-.toppromo .closetop{display:block;width:15px;height:15px;position:absolute;
-	top:6px;left:50%;margin-left:580px;}
 
 /*---------------------slide_show 轮播图  ---------------------------*/
 .slide_show{width:100%;height:480px;position:relative;}

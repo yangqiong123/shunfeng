@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.liebao-food{width:1200px;height:20px;line-height:20px;margin:10px auto;}
+.breadcrumb strong{font-size:16px;}
+.zt-list{width:1200px;overflow:hidden;margin:0 auto;}
+.left-box{float:left;width:180px;overflow:hidden;}
+.list-box{border:1px solid #dadada;border-top:2px solid #999;width:178px;overflow:hidden;z-index:10;}
+.ct h2{height:40px;;line-height:40px;font-size:16px;padding:0 0px 0 10px;background:#f5f5f5;border-bottom:1px solid #dadada;}
+.catitem{border-top:1px dashed #dadada;}
+.catitem h3{height:34px;line-height:34px;padding: 0 7px 0 10px;font: 14px/34px "宋体";font-weight:bold;color:#6d6d6d;cursor: pointer;overflow:hidden;}
+.catitem b {cursor: pointer;float:left;height:14px;margin: 10px 5px 0 0;overflow: hidden;width: 14px;background:url(img/productList.png) no-repeat;display: inline;}
+.change b{background: url(img/productList.png) -14px 0 no-repeat;}
+.list-box ul{display:none;}
+.change ul{display:block;}
+.catitem li{height: 20px;line-height: 20px;overflow:hidden;padding: 3px 15px 3px 30px;width: 144px;color: #6f6f6f;}
+.categoryCommend{border:1px solid #dadada;width:178px;overflow:hidden;margin-top:10px}
+.categoryCommend h2{height:30px;line-height:30px;font-size:14px;}
+.p-img{text-align:center;}
+.p-img img{width:120px;height:120px}
+.usbuy li{padding:10px 0;}
+.usbuy{padding:0 10px;}
+.left-box .p-price{height:20px;line-height:20px;overflow:hidden;color:#BB3221;font-size:16px;}
+
+/*-------------列表右边的内容-----------------*/
+.r-main-list{float:right;overflow:hidden;width:1006px;}
+/*---------------列表右边头部-------------*/
+.r-hot{width:1004px;border:1px solid #dadada;}
+.r-hot .cm{padding: 0 5px 0 25px;overflow:hidden;}
+.r-hot dl{float:left;width:304px;overflow:hidden;margin:10px 20px 0 0;}
+.r-hot dt{float:left;width:120px;margin-right:10px;display:inline-block;overflow:hidden;}
+.r-hot dd{overflow:hidden;margin:10px 0 0 0;}
+.r-hot .r-title{height:40px;line-height:20px;overflow:hidden;}
+.r-hot .r-price{color:#bb3221;margin-top:10px;}
+.r-hot .r-price .fc{color:#999;}
+.r-hot .r-price i{font-size:20px;font-style:normal;}
+.r-hot .addcar a{margin-top:10px;display:block;border-radius:2px;background:url(img/productList.png) no-repeat -130px -162px #6b9c05;color:#fff;cursor:pointer;font-size:12px;height:24px;line-height:24px;width:65px;padding:0 0 0 25px;}
+.attrs-extend{border:1px solid #dadada;width:1004px;margin-top:10px;}
+
+.attr{border-top: 1px dashed #dadada;overflow:hidden;padding: 5px 0;}
+.attr .a-key{float: left;font-weight: bold;line-height: 25px;text-align: right;width: 100px;color: #6c9c0a;}
+.attr .a-value {overflow: hidden;position: relative;}
+.attr .v-list {float: left;width: 840px;}
+.attr .v-show{overflow: hidden;zoom: 1;height: 20px;padding-top: 5px;padding-right: 10px;position: absolute;top: 0;right: 0;}
+.attr .s-more{float: right;width: 36px;cursor: pointer;color: #6c9c0a;}
+.attr .v-list li{float: left;width: 160px;height: 22px;padding-top: 3px;overflow: hidden;white-space: nowrap;margin-right: 8px;}

@@ -108,8 +108,8 @@ $(function(){
 			$('.cartTopPrice').html(parseFloat($zongjia) - parseFloat($xiaoji));
 			$('#allMoney').html(parseFloat($zongjia) - parseFloat($xiaoji));
 			$('#allWeight').html(d+'kg');
-		}		
-	})
+		}	
+	});
 
 	$('.cartDel').on('click',function(){
 		sel = $(this).parents('.cartPInfo');
@@ -124,8 +124,8 @@ $(function(){
 			$('.body-box').hide();
 			$('.tangchuang').hide();
 			sel.remove();
-		});
-	})
+		})
+	});
 
 
 	$('.cartclear').on('click',function(){
@@ -145,22 +145,4 @@ $(function(){
 	},function(){
 		$('.adress').hide();
 	});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-})
+});
