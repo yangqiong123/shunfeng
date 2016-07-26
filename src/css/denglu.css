@@ -36,11 +36,15 @@ a:hover{text-decoration:none;}
 .title{height:26px;line-height:26px;}
 .userName, .password{width:320px;height:36px;border:1px solid #cdcdcd;}
 .mid-li{margin:15px 0 30px}
-#userName, #password{width:274px;height:20px;padding:8px 5px;line-height:20px;float:left;border:none;font-size:14px;}
-#checked{width:94px;height:20px;line-height:20px;padding:6px 5px;float:left;margin-right:10px;}
-#checked img{float:left;}
+.user, #userName, .pass{width:274px;height:20px;padding:8px 5px;line-height:20px;float:left;border:0;font-size:14px;outline:none;}
+.checktext{width:94px;height:20px;line-height:20px;padding:6px 5px;float:left;margin-right:10px;}
+.checktext img{float:left;}
+.forget-password{margin-left:270px;}
 
-.login-btn{display:block;background:url(img/login_bg.jpg) left top no-repeat;height:41px;line-height: 41px;font-size: 18px;text-align: center;color: #f2f1f1;letter-spacing:0.8em;margin: 20px 0 10px;}
+
+
+
+.login-box .login-btn{display:block;background:url(img/login_bg.jpg) left top no-repeat;height:41px;line-height: 41px;font-size: 18px;text-align: center;color: #f2f1f1;letter-spacing:0.8em;margin-bottom:10px;}
 .use{margin:10px 0 0 3px;}
 
 .login-box .blink{padding: 0;border-top: 1px solid #cdcdcd;width: 100%;margin: 15px 0 0 0;}

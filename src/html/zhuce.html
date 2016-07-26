@@ -1,75 +1,70 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>顺丰注册页面</title>
-		<link rel="stylesheet" type="text/css" href="../css/denglu.css"/>
-	</head>
-	<body>
-		<!--header-->
-		<div class="header">
-			<a href="#">
-				<img src="../img/dlulogo.png"/>
-				<span>欢迎登陆</span>
-			</a>
-		</div>
-		<!--登陆主体部分-->
-		<div class="login_main">
-			<div class="login-pic">
-				<a href="#"><img src="../img/denglu.png"/></a>
-			</div>
-			<!--登陆-->
-			<div class="login">
-				<div class="login-header">
-					<span>您还未登录</span>
-					<a href="#">免费注册</a>
-				</div>
-				<div class="login-box">
-					<ul class="loginnav">
-						<li class="curr"><em></em>优选账号</li>
-						<li class="npay"><em></em>顺手付账号</li>
-						<li class="nexpress bordernone"><em></em>速运账号</li>
-					</ul>	
-					<div class="loginco">
-						<ul>
-							<li>
-								<div class="title">手机/验证邮箱/用户名</div>
-								<div class="userName">
-									<input type="text" name="userName" id="userName" placeholder="请输入手机号/邮箱/用户名" />
-									<img class="use" src='../img/icon1.jpg' />
-								</div>								
-							</li>
-							<li class="mid-li">
-								<div class="title">登陆密码</div>
-								<div class="password">
-									<input type="password" name="password" id="password" placeholder="请输入密码" />
-									<img class="use" src='../img/icon1.jpg'/>
-								</div>								
-							</li>
-							<li class="checked">
-								<input type="tetx" name="checked" id="checked"/><img src="../img/checkma.jpg" />
-							</li>
-							<li><a href="#" class="login-btn">登录</a></li>
-						</ul>
-					</div>
-					<ul class="blink">
-						<li class="p-f10">
-							<h2 class="h2">合作网站账户登录：</h2>
-							<div>
-								<a href="#" class="link">QQ</a>&nbsp;|&nbsp; 
-								<a href="#" class="link">新浪微博</a> &nbsp;|&nbsp;
-								<a href="#" class="link">腾讯微博</a> &nbsp;|&nbsp; 
-								<a href="#" class="link">支付宝</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			
-			
-			</div>
-		</div>
-		<!--footer-->
-		<div class="footer">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>顺风优选注册</title>
+	<link rel="stylesheet" href="../css/zhuce.css">
+</head>
+<body>
+<!--header-->
+	<div class="header">
+		<a href="#">
+			<img src="../img/dlulogo.png"/>
+			<span>欢迎登陆</span>
+		</a>
+	</div>
+<!-- 注册头部 -->
+	<div class="zhucetop">
+		<div class="personal btom">个人用户</div>
+		<div class="company">企业用户</div>
+		<div class="denglu">已有帐号，立即&nbsp;&nbsp;<a href="#">登录</a></div>
+	</div>
+
+<!-- 注册主体部分 -->
+	<div class="reg-main">
+		<ul>
+			<li style="margin-bottom:30px">
+				<label><font>*</font> 账户名：</label>
+				<input type="text" id="userName" class="shuru">
+				<span class="remind"></span>
+			</li>
+			<li>
+				<label><font>*</font> 登录密码：</label>
+				<input type="password" id="password" class="shuru">
+				<span class="remind"></span>
+			</li>
+			<li style="padding-left:230px">
+				安全程度
+				<span class="jibie">弱</span>
+				<span class="jibie">中</span>
+				<span class="jibie">强</span>
+			</li>
+			<li style="margin-bottom:30px">
+				<label><font>*</font> 确认密码：</label>
+				<input type="password" id="checkedword" class="shuru">
+				<span class="remind"></span>	
+			</li>
+			<li style="margin-bottom:30px;">
+				<label><font>*</font> 验证码：</label>
+				<input type="text" id="yazhema">
+				<img class="img" src="../img/checkma.jpg"/>
+				<span class="kanbuqing">看不清？<a href="#">换一换</a></span>
+			</li>
+			<li>
+				<input type="checkbox" name="checkbox" id="checked" checked="checked">
+				<a class="ty" href="#">我已经阅读并同意<i>《顺丰优选用户注册协议》</i></a>
+				<b class="gou">请阅读并同意注册协议</b>
+			</li>
+			<li>
+				<input type="button" value="立即注册" id="tijiao" class="shuru">
+			</li>
+
+		</ul>
+		<div class="ui-reg-tip"><a href="#">了解更多&gt;&gt;</a></div>
+
+	</div>
+<!--footer-->
+	<div class="footer">
 		<span> 
 			<a href="#" class="footerlink1">关于我们</a> | 
 			<a href="#" class="footerlink1">联系我们</a> | 
@@ -84,7 +79,7 @@
 			sfbest.com 版权所有<br>
 		</p>
 	</div>
-	
-	
-	</body>
+<script src="../js/jquery-1.12.0.js"></script>
+<script src="../js/zhuce.js"></script>
+</body>
 </html>

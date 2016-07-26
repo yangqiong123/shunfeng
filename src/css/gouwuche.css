@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+input{vertical-align:middle;}
+.step_01{float:right;width:650px;padding-top:30px;}
+.cartHead{padding-bottom:10px;width:1200px;overflow:hidden;margin:0 auto;}
+.cartHead h3{float:left;font-size:20px;line-height:26px;height:26px;}
+.toTxt{float:left;font-size:14px;line-height:26px;height:26px;margin:0 5px 0 20px;}
+#store-selector{float: left;height: 26px;margin-right: 6px;position:relative;z-index:5;}
+#store-selector .text{border:1px solid #cecbce;float:left;font-size:12px;height:23px;line-height:23px;padding:0 10px;}
+.areatips{line-height: 26px;margin-left:10px;}
+.cartTotal{float:right;}
+.cartTopPrice{color:#ea5404;font-weight: bold}
+.cartThead{width:1200px;overflow:hidden;margin:0 auto;}
+.tCol{float:left;height: 34px;line-height: 34px;background-color: #81A84A;color: #fff;font-weight: bold;text-align: center;}
+.tCheckbox{width:120px;}
+.tGoods{width:320px;}
+.tPrice{width:100px;}
+.tPromotion{width:100px;}
+.tQuantity{width:100px;}
+.tWeight{width:120px;}
+.tSubtotal{width:100px;}
+.tInventory{width:120px;}
+.tOperator{width:120px;}
+#Zall,#Zpu{vertical-align:middle;}
+.cartCheckbox{background:#f2f6ed;height:25px;line-height:25px;padding:5px 30px;width:1140px;margin:0 auto;}
+.clearit{width:1200px;margin:0 auto;overflow:hidden;}
+.cartPInfo{overflow: hidden;padding: 20px 0;border-bottom: 1px solid #EBF7EF;}
+.pItem{float:left;color: #6B6B6B;text-align:center;line-height:20px;}
+
+.pCheckbox{width:120px;padding:20px 0 0 0;}
+.pGoods{width:320px;text-align: left;}
+.pPrice{width:100px;}
+.pPromotion{width:100px;}
+.pQuantity{width:100px;}
+.pWeight{width:120px;}
+.pSubtotal{width:100px;color:#EA5404;font-weight:bold;}
+.pInventory{width:120px;}
+.pOperator{width:120px;}
+.cart_pimg{border: 1px solid #EEEEEE;display: inline;float: left;height: 60px;margin-right: 10px;overflow: hidden;width: 60px;}
+.cart_pname{color: #6B6B6B;line-height: 20px;overflow: hidden;}
+.cartAmount{margin: 1px auto;width: 75px;height: 18px;overflow: hidden;zoom: 1;}
+a.cartCountBtn,input.amount {float: left;font-size: 12px;vertical-align: middle;border: 1px solid #cacaca;overflow: hidden;text-align: center;}
+a.cartCountBtn{background-color: #eeeeee;color: #7d7d7d;cursor: pointer;display: inline-block;height: 12px;line-height: 12px;margin: 1px 0 0 0;text-decoration: none;width: 10px;}
+input.amount{float:left;font-size:12px;height:14px;line-height: 14px;overflow: hidden;padding: 0;text-align: center;vertical-align: middle;width: 25px;margin:0 10px;}
+.cartOrderCount{margin:10px auto 0;border: 1px solid #dadada;overflow:hidden;width:1200px;}
+.cartButtons{float: left;width: 300px;padding: 5px 0;}
+.cartclear{border: 0;color: #6B6B6B;cursor: pointer;height: 18px;line-height: 18px;margin: 10px;overflow: hidden;padding: 0 0 0 15px;text-align: left;width: 110px;}
+.cartTotalItem{float: right;width: 500px;text-align: right;line-height: 38px;padding: 3px 10px 0 0;}
+.cartPrice{color: #EA5404;font-size: 22px;}
+.cartJsuan{margin:0 auto;width: 1200px;text-align: right;padding: 10px;}
+.goshop{height: 28px;width: 73px;border: 1px solid #a5cf69;color: #666666;margin: 0 10px 0 0;cursor: pointer;}
+.jiesuan{background: #6e9b0c;height:45px;width:150px;border:0;color:#FFF;text-align:center;font-size: 16px;font-weight: bold;cursor: pointer;}
+
+
+
+
+
+
+
+
