@@ -119,12 +119,96 @@
 			<h3>我的购物车</h3>
 			<strong class="toTxt">送至：</strong>
 			<div id="store-selector">
-	    		<div class="text">广东省深圳市福田区</div>	   
+	    		<div class="text">广东省深圳市福田区</div>
+				<div class="adress">
+					<div class="adress-top">
+						<span class="mt">广东省</span>
+						<span>深圳市区</span>
+						<span>福田区</span>
+					</div>
+					<ul class="city-cont xianshi">
+						<li><a href="#">北京</a></li>
+						<li><a href="#">天津</a></li>
+						<li><a href="#">上海</a></li>
+						<li><a href="#">广东省</a></li>
+						<li><a href="#">浙江省</a></li>
+						<li><a href="#">江苏省</a></li>
+						<li><a href="#">福建省</a></li>
+						<li><a href="#">重庆</a></li>
+						<li><a href="#">辽宁省</a></li>
+						<li><a href="#">河南省</a></li>
+						<li><a href="#">吉林省</a></li>
+						<li><a href="#">黑龙江省</a></li>
+						<li><a href="#">江西省</a></li>
+						<li><a href="#">河北省</a></li>
+						<li><a href="#">湖北省</a></li>
+						<li><a href="#">湖南省</a></li>
+						<li><a href="#">四川省</a></li>
+						<li><a href="#">云南省</a></li>
+						<li><a href="#">海南省</a></li>
+						<li><a href="#">广西</a></li>
+						<li><a href="#">青海省</a></li>
+						<li><a href="#">甘肃省</a></li>
+						<li><a href="#">宁夏省</a></li>
+						<li><a href="#">内蒙古省</a></li>
+						<li><a href="#">新疆省</a></li>
+						<li><a href="#">陕西省</a></li>
+					</ul>
+					<ul class="city-cont">
+						<li><a href="#">广州市</a></li>
+						<li><a href="#">深圳市</a></li>
+						<li><a href="#">潮州市</a></li>
+						<li><a href="#">东莞市</a></li>
+						<li><a href="#">佛山市</a></li>
+						<li><a href="#">河源市</a></li>
+						<li><a href="#">福建省</a></li>
+						<li><a href="#">惠州市</a></li>
+						<li><a href="#">江门市</a></li>
+						<li><a href="#">揭阳市</a></li>
+						<li><a href="#">茂名市</a></li>
+						<li><a href="#">梅州市</a></li>
+						<li><a href="#">清远市</a></li>
+						<li><a href="#">汕头市</a></li>
+						<li><a href="#">汕尾市</a></li>
+						<li><a href="#">韶关市</a></li>
+						<li><a href="#">阳江市</a></li>
+						<li><a href="#">云浮市</a></li>
+						<li><a href="#">湛江市</a></li>
+						<li><a href="#">肇庆市</a></li>
+						<li><a href="#">中山市</a></li>
+						<li><a href="#">珠海市</a></li>
+					</ul>
+					<ul class="city-cont">
+						<li><a href="#">福田区</a></li>
+						<li><a href="#">罗湖区</a></li>
+						<li><a href="#">南山区</a></li>
+						<li><a href="#">宝安区</a></li>
+						<li><a href="#">龙岗区</a></li>
+						<li><a href="#">盐田区</a></li>
+						<li><a href="#">坪山新区</a></li>
+						<li><a href="#">光明新区</a></li>
+						<li><a href="#">龙华区</a></li>
+						<li><a href="#">大鹏新区</a></li>
+						<li><a href="#">其他区</a></li>
+					</ul>
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
 			</div>
 			<span class="areatips">提示：请选择您的收货区域，查看更准确的信息</span>
 			<div class="cartTotal">
-        		总计（不含运费）：
-        		<span class="cartTopPrice">¥155.3</span>
+        		总计（不含运费）：¥
+        		<span class="cartTopPrice">0</span>
 			</div>
 		</div>
 		<div class="cartThead">
@@ -143,11 +227,11 @@
          </div>
 		
 	<!--购物车列表-->	
-		<div class="clearit">	
+		<div class="clearitall">	
 			<div class="cartPInfo" >
 				<div class="clearit">
 					<div class="pItem pCheckbox">
-						<input name="cart_list" class="putong" type="checkbox" checked="">
+						<input name="cart_list" class="putong" type="checkbox" checked="checked">
 					</div>
 					<div class="pItem pGoods">
 						<div class="cart_pimg"><a href="#"><img src="../img/cart-list01.jpg"></a></div>
@@ -156,24 +240,175 @@
 						</div>
 					</div>
 					<div class="pItem pPrice">
-						<div style="position:relative;"><strong>¥22.6</strong></div>
+						<div style="position:relative;">¥<strong>22.6</strong></div>
 					</div>
 					<div class="pItem pPromotion">&nbsp;</div>
 					<div class="pItem pQuantity">
 						<div class="cartAmount">
-							<a href="#" class="cartCountBtn">-</a>
+							<a href="#" class="cartCountBtn reducenum">-</a>
 							<input type="text" value="1" class="amount">
-							<a href="#" class="cartCountBtn">+</a>
+							<a href="#" class="cartCountBtn addnum">+</a>
 						</div>
 					</div>
-					<div class="pItem pWeight">0.21kg<br></div>
-					<div class="pItem pSubtotal">¥<span id="total_price">22.6</span></div>
+					<div class="pItem pWeight">0.21kg</div>
+					<div class="pItem pSubtotal">¥<span class="total_price">22.6</span></div>
 					<div class="pItem pInventory">现货</div>
 					<div class="pItem pOperator">
-						<a href="#">收藏</a>&nbsp;&nbsp;<a id="cartDel" href="#">删除</a>
+						<a href="#">收藏</a>&nbsp;&nbsp;<a class="cartDel" href="#">删除</a>
 					</div>
-				</div>
+				</div>				
 			</div>
+			<div class="cartPInfo" >
+				<div class="clearit">
+					<div class="pItem pCheckbox">
+						<input name="cart_list" class="putong" type="checkbox" checked="checked">
+					</div>
+					<div class="pItem pGoods">
+						<div class="cart_pimg"><a href="#"><img src="../img/cart-list02.jpg"></a></div>
+						<div class="cart_pname">
+							<div><a  href="#">天谱乐食Tender Plus 澳洲牛腩块 1000g</a></div>
+						</div>
+					</div>
+					<div class="pItem pPrice">
+						<div style="position:relative;">¥<strong>69</strong></div>
+					</div>
+					<div class="pItem pPromotion">&nbsp;</div>
+					<div class="pItem pQuantity">
+						<div class="cartAmount">
+							<a href="#" class="cartCountBtn reducenum">-</a>
+							<input type="text" value="1" class="amount">
+							<a href="#" class="cartCountBtn addnum">+</a>
+						</div>
+					</div>
+					<div class="pItem pWeight">5kg</div>
+					<div class="pItem pSubtotal">¥<span class="total_price">69</span></div>
+					<div class="pItem pInventory">现货</div>
+					<div class="pItem pOperator">
+						<a href="#">收藏</a>&nbsp;&nbsp;<a class="cartDel" href="#">删除</a>
+					</div>
+				</div>				
+			</div>
+			<div class="cartPInfo" >
+				<div class="clearit">
+					<div class="pItem pCheckbox">
+						<input name="cart_list" class="putong" type="checkbox" checked="checked">
+					</div>
+					<div class="pItem pGoods">
+						<div class="cart_pimg"><a href="#"><img src="../img/cart-list03.jpg"></a></div>
+						<div class="cart_pname">
+							<div><a  href="#">天谱乐食Tender Plus 澳洲牛腩块 1000g</a></div>
+						</div>
+					</div>
+					<div class="pItem pPrice">
+						<div style="position:relative;">¥<strong>69</strong></div>
+					</div>
+					<div class="pItem pPromotion">&nbsp;</div>
+					<div class="pItem pQuantity">
+						<div class="cartAmount">
+							<a href="#" class="cartCountBtn reducenum">-</a>
+							<input type="text" value="1" class="amount">
+							<a href="#" class="cartCountBtn addnum">+</a>
+						</div>
+					</div>
+					<div class="pItem pWeight">5kg</div>
+					<div class="pItem pSubtotal">¥<span class="total_price">69</span></div>
+					<div class="pItem pInventory">现货</div>
+					<div class="pItem pOperator">
+						<a href="#">收藏</a>&nbsp;&nbsp;<a class="cartDel" href="#">删除</a>
+					</div>
+				</div>				
+			</div>
+			<div class="cartPInfo" >
+				<div class="clearit">
+					<div class="pItem pCheckbox">
+						<input name="cart_list" class="putong" type="checkbox" checked="checked">
+					</div>
+					<div class="pItem pGoods">
+						<div class="cart_pimg"><a href="#"><img src="../img/cart-list04.jpg"></a></div>
+						<div class="cart_pname">
+							<div><a  href="#">天谱乐食Tender Plus 澳洲牛腩块 1000g</a></div>
+						</div>
+					</div>
+					<div class="pItem pPrice">
+						<div style="position:relative;">¥<strong>69</strong></div>
+					</div>
+					<div class="pItem pPromotion">&nbsp;</div>
+					<div class="pItem pQuantity">
+						<div class="cartAmount">
+							<a href="#" class="cartCountBtn reducenum">-</a>
+							<input type="text" value="1" class="amount">
+							<a href="#" class="cartCountBtn addnum">+</a>
+						</div>
+					</div>
+					<div class="pItem pWeight">5kg</div>
+					<div class="pItem pSubtotal">¥<span class="total_price">69</span></div>
+					<div class="pItem pInventory">现货</div>
+					<div class="pItem pOperator">
+						<a href="#">收藏</a>&nbsp;&nbsp;<a class="cartDel" href="#">删除</a>
+					</div>
+				</div>				
+			</div>
+			<div class="cartPInfo" >
+				<div class="clearit">
+					<div class="pItem pCheckbox">
+						<input name="cart_list" class="putong" type="checkbox" checked="checked">
+					</div>
+					<div class="pItem pGoods">
+						<div class="cart_pimg"><a href="#"><img src="../img/cart-list05.jpg"></a></div>
+						<div class="cart_pname">
+							<div><a  href="#">天谱乐食Tender Plus 澳洲牛腩块 1000g</a></div>
+						</div>
+					</div>
+					<div class="pItem pPrice">
+						<div style="position:relative;">¥<strong>69</strong></div>
+					</div>
+					<div class="pItem pPromotion">&nbsp;</div>
+					<div class="pItem pQuantity">
+						<div class="cartAmount">
+							<a href="#" class="cartCountBtn reducenum">-</a>
+							<input type="text" value="1" class="amount">
+							<a href="#" class="cartCountBtn addnum">+</a>
+						</div>
+					</div>
+					<div class="pItem pWeight">5kg</div>
+					<div class="pItem pSubtotal">¥<span class="total_price">69</span></div>
+					<div class="pItem pInventory">现货</div>
+					<div class="pItem pOperator">
+						<a href="#">收藏</a>&nbsp;&nbsp;<a class="cartDel" href="#">删除</a>
+					</div>
+				</div>				
+			</div>
+			<div class="cartPInfo" >
+				<div class="clearit">
+					<div class="pItem pCheckbox">
+						<input name="cart_list" class="putong" type="checkbox" checked="checked">
+					</div>
+					<div class="pItem pGoods">
+						<div class="cart_pimg"><a href="#"><img src="../img/cart-list06.jpg"></a></div>
+						<div class="cart_pname">
+							<div><a  href="#">天谱乐食Tender Plus 澳洲牛腩块 1000g</a></div>
+						</div>
+					</div>
+					<div class="pItem pPrice">
+						<div style="position:relative;">¥<strong>69</strong></div>
+					</div>
+					<div class="pItem pPromotion">&nbsp;</div>
+					<div class="pItem pQuantity">
+						<div class="cartAmount">
+							<a href="#" class="cartCountBtn reducenum">-</a>
+							<input type="text" value="1" class="amount">
+							<a href="#" class="cartCountBtn addnum">+</a>
+						</div>
+					</div>
+					<div class="pItem pWeight">5kg</div>
+					<div class="pItem pSubtotal">¥<span class="total_price">69</span></div>
+					<div class="pItem pInventory">现货</div>
+					<div class="pItem pOperator">
+						<a href="#">收藏</a>&nbsp;&nbsp;<a class="cartDel" href="#">删除</a>
+					</div>
+				</div>				
+			</div>
+
 		</div>	
 	
 	<!--计算购物车的商品-->	
@@ -184,10 +419,10 @@
 			</div>
 			<div class="cartTotalItem">
 				<span id="all_Weight">重量总计：
-					<span id="allWeight">2.43kg</span>（含包装）
+					<span id="allWeight">0kg</span>（含包装）
 				</span>
-				<span id="all_shopePrice">（不含运费）</span>&nbsp;&nbsp;&nbsp;&nbsp;商品总计：
-				<span class="cartPrice" id="allMoney2">¥155.3</span>
+				<span id="all_shopePrice">（不含运费）</span>&nbsp;&nbsp;&nbsp;&nbsp;商品总计：¥
+				<span class="cartPrice" id="allMoney">0</span>
 			</div>
 		</div>	
 	<!--结算-->
@@ -195,7 +430,17 @@
             <input class="goshop" value="继续购物" type="button">
             <input class="jiesuan youxuan" value="去结算" type="button">
         </div>
-	
+		<div class="body-box"></div>
+		<div class="tangchuang">
+			<h3>提示消息</h3>
+			<div class="box-xingxi">
+				<div>确定删除此商品？</div>
+				<div>
+					<input type="button" value="&nbsp;确定&nbsp;" id="popup_ok" class="submit1"> 
+					<input type="button" value="&nbsp;取消&nbsp;" id="popup_cancel" class="submit1">
+				</div>
+			</div>
+		</div>
 	<!--  底部  -->
 		<div class="footer">
 			<div class="foot">
@@ -280,4 +525,5 @@
 
 	</body>
 	<script src="../js/jquery-1.12.0.js"></script>
+	<script src="../js/gouwuche.js"></script>
 </html>
