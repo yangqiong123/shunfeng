@@ -44,10 +44,8 @@ $(function(){
 	$('#checkedword').on('blur',function(){
 		if($(this).val()!==$('#password').val()){
 			$(this).next().html('两次密码不一致').css('color','#ff4800');
-			//$(this).css('borderColor','#ff4800');
 		}else{
 			$(this).next().hide();
-			//$(this).css('borderColor','#cdcdcd');
 		}
 	})
 
@@ -60,6 +58,25 @@ $(function(){
 		}
 	})
 
-
+// 	记录注册的帐号密码
+	$('#tijiao').on('click',function(){
+		var username = $('#userName').val();
+		var password =$('#password').val();
+		var checkedword = $('#checkedword').val();
+		var now = new Date();
+		now.setDate(now.getDate() + 10);		
+		if(!/^1\d{10}$/.test(username)){
+			return false;
+		}else if(!/^\w{6,20}$/.test(password)){
+			return false;
+		}else if(checkedword != password){
+			return false;
+		}else{
+			document.cookie = 'username=' + username + ';expires=' + now;
+			document.cookie = 'password=' + password + ';expires=' + now;
+			alert("注册成功,点击进入登录页面");
+			$(this).parent().attr('action','denglu.html');
+		}
+	})
 
 })

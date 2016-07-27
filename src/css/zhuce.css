@@ -35,7 +35,7 @@ label font{color:#ff4800;}
 .kanbuqing a{color:#6e9b0c;}
 
 
-#tijiao{background-color:#6e9b0c;color:#fff;font-size:16px;border:none;margin-left:100px;border-radius:5px;}
+#tijiao{background-color:#6e9b0c;color:#fff;font-size:16px;text-align:center;border:none;margin-left:100px;border-radius:5px;cursor:pointer;}
 #checked{float:left;margin:3px 5px 0 100px;}
 .ty{float:left;}
 .ty i{font-style:normal;color:#6e9b0c;}

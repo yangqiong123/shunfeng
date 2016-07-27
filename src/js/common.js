@@ -1,11 +1,29 @@
+$(function(){
+// 进入页面先判断是否有cookie
+	var cookie = document.cookie;
+	console.log(cookie);
+	if(cookie){
+		var arr = cookie.split(';');
+		if(arr.length==3){
+			var userInfo = arr[2].split('=')[1];
+			$('.fr .login').html('嘿欢迎来顺风优选！'+userInfo);
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
 // 点击关闭头部活动页面
 	$('.closetop').on('click',function(){
 		$('.toppromo').slideUp(500);
 	});
-
-
-
-
 // 鼠标滚动事件
 	$(window).scroll(function(){
 		if($(document).scrollTop() > 0){
@@ -28,3 +46,10 @@
 			$('.appInfo').hide();
 		});
 	})
+
+
+
+
+
+})
+

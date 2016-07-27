@@ -44,21 +44,37 @@ $(function(){
 	});
 
 
-	// 提交按钮的事件绑定
-	// $('.user').val()!=="" && $('.use').attr('src')!== '../img/../img/icon.jpg'
-
-	
-	$('.login-btn').on('click',function(){
-		if( $('.user').val()!=="" && $('.use').attr('src')!== '../img/../img/icon.jpg'){
-
+// 判断登录时候的密码和帐号，成功后将之存如页面
+	var now = new Date();
+		now.setDate(now.getDate() + 10);
+	var cookie = document.cookie;
+	var arr = cookie.split(';');
+	var name = arr[0];
+	name = name.split('=');
+	var mima = arr[1];
+	mima = mima.split('=');
+	$('.login-btn').on('click',function(){console.log(1);
+		if($('.user').val()==name[1] && $('.pass').val() ==mima[1] ){
+			var userInfo = $('.user').val();
+			document.cookie = 'userInfo=' + userInfo + ';expires=' + now;
+			alert("你登录成功，点击进入主页");
 		}else{
-			alert('您输入有问题，请重新输入帐号密码');			
+			alert('用户名或密码错误！');
+			return false;
 		}
-		return false;
 	})
 
 
 
 
 
+
+
+
+
+
+
+
+
 })
+

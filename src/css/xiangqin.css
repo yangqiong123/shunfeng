@@ -21,7 +21,7 @@
 .pView {float: left;width: 410px;position: relative;background-color: white;height: 410px;z-index: 92;}
 #pView{left: 10px;position: absolute;top: 20px;z-index: 100;width: 390px;margin-bottom: 20px;}
 
-.pShare{position:absolute;top:370px;border-top:1px solid rgb(239, 239, 239);width:390px;margin:0px 10px;zoom:1;}
+.pShare{position:absolute;top:370px;border-top:1px solid rgb(239, 239, 239);width:390px;margin:0px 10px;}
 
 #bdshare{overflow: hidden;z-index:999999;padding-bottom:2px;font-size:12px;float:left;text-align:left;zoom: 1;}
 #bdShare a{display: block;height: 16px;float: left;padding-top: 6px;padding-bottom: 3px;padding-left: 22px;}
@@ -50,13 +50,13 @@ span.bds_more{background: url(img/is.png) no-repeat 0 5px;display: block;height:
 .sm-pic-list .suoxiao:hover{border:1px solid rgb(105,175,5);}
 
 /*-------------放大镜中间部分-----------------*/
-.pItemsName .cm {padding:0px 15px;margin:10px 0px;height:60px;overflow:hidden;zoom:1;}
+.pItemsName .cm {padding:0px 15px;margin:10px 0px;height:60px;overflow:hidden;}
 .cm .owner_shop {float:left;display:inline-block;width:37px;height: 18px;line-height:18px;background-color: rgb(111, 154, 9);border-radius: 3px;text-align:center;color:rgb(255, 255, 255);margin-top:7px;margin-right:5px;}
 .pItemsName h2 {float: left;color:rgb(25, 28, 31);font-size:18px;line-height:30px;font-weight:bold;}
 .pItemsName strong {color:rgb(250, 100, 0);font-size:18px;line-height:30px;font-weight:bold;}
 
 .pItemsPrice{background-color: rgb(250, 142, 25);height: 90px;zoom: 1;margin-bottom: 10px;border-bottom: 3px solid rgb(221, 221, 221);}
-.priceBox{float: left;overflow:hidden;zoom:1;color:white;}
+.priceBox{float: left;overflow:hidden;color:white;}
 .priceBox .dt{float:left;padding: 55px 0px 0px 30px;height:18px;line-height:18px;}
 .priceBox .rmb {float: left;padding: 53px 0px 0px;height:18px;line-height:18px;font-size:18px;}
 .priceBox strong{float: left;padding: 30px 0px 0px;font-size: 50px;height: 45px;line-height: 45px;}
@@ -174,6 +174,7 @@ height: 10px;background-color: #fa6400;}
 .commentAll h3 {height: 20px;padding: 5px 10px 4px 10px;display: inline-block;font-size: 14px;font-weight: normal;margin-right: 6px;}
 .commentAll h3.curr {border-bottom: 2px solid #ea5404;color: #ea5404;font-weight: bold;}
 .commentAll h3.curr a{color: #ea5404;}
+.commentAllScroll{position:fixed;top:0;z-index:10000;background:#FFF;}
 
 .pComment{width:1000px;float:left;overflow:hidden;padding: 0px 0 10px 0;margin-bottom:20px;}
 .pComment li{margin-bottom:20px;overflow:hidden;}

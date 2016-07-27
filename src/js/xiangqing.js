@@ -117,8 +117,14 @@ $(function(){
 		ysIcon.eq(contXq).addClass("white");
 	};
 
-
-
+	var $commentAllTtop = $('.top-top').offset().top;
+	$(window).scroll(function(){
+		if($(document).scrollTop() > $commentAllTtop){
+			$('.top-top').addClass('commentAllScroll')
+		}else{
+			$('.top-top').removeClass('commentAllScroll')
+		}
+	})
 
 
 

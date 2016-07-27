@@ -84,7 +84,7 @@ b{width:8px;height:4px;display:inline-block;margin-left:5px;
 .search .btn{width:80px;font-size:18px;color:#fff;float:left;background:#690;}
 .search .text{width:424px;padding-left:10px;}
 .search_hot{position:absolute;left:0;top:34px;}
-.search_hot a{margin-right:8px;color:##979797;}
+.search_hot a{margin-right:8px;color:#979797;}
 
 .shopingcar{position:relative;width:146px;height:33px;line-height:33px;border:1px solid #efefef;float:right;margin-top:28px;}
 .setcart{display:block;width:23px;height:21px;float:left;margin-left:16px;margin-top:6px;
@@ -149,7 +149,7 @@ b{width:8px;height:4px;display:inline-block;margin-left:5px;
 .pageFooter .left{float:left;margin:35px 0 0 0;width:235px;height:145px;}
 .pageFooter .left ul{margin:0px;padding:0px 0px 0px 0px;float:left;}
 
-.pageFooter .left .f_ios li{ width:80px;text-align:center;margin:0 50px 8px 0;*margin-right:25px; line-height:24px;}
+.pageFooter .left .f_ios li{ width:80px;text-align:center;margin:0 50px 8px 0;margin-right:25px; line-height:24px;}
 .pageFooter .left .f_ios span{display:block;width:80px;height:80px;background:url(img/foot_bottom.png) no-repeat 0px 0px;margin:auto;}
 .pageFooter .left .f_wx li{ width:80px;text-align:center; margin:0 0 8px 0;line-height:24px;}
 .pageFooter .left .f_wx span{display:block;width:80px;height:80px;background:url(img/foot_bottom.png) no-repeat -83px 0px;margin:auto}
@@ -181,7 +181,7 @@ b{width:8px;height:4px;display:inline-block;margin-left:5px;
 .footer .sfzd{background:url(img/sf.jpg) no-repeat center center;}
 .footer .foot{ width:100%; height:285px;}
 .footer .bottom{ width:1180px;height:50px; margin:0px auto; border-top:1px solid #E0E0E0; padding-top:15px;}
-.footer .bottom_kx{float:left;padding-top:0 6px 6px;} 
+.footer .bottom_kx{float:left;padding:0 6px 6px;} 
 .footer .bottom_sm{padding:0 6px; float:left}
 
 .footer .siteinfo{float:left; padding-left:15px;}
