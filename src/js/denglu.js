@@ -53,7 +53,7 @@ $(function(){
 	name = name.split('=');
 	var mima = arr[1];
 	mima = mima.split('=');
-	$('.login-btn').on('click',function(){console.log(1);
+	$('.login-btn').on('click',function(){
 		if($('.user').val()==name[1] && $('.pass').val() ==mima[1] ){
 			var userInfo = $('.user').val();
 			document.cookie = 'userInfo=' + userInfo + ';expires=' + now;

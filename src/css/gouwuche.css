@@ -37,7 +37,7 @@ input{vertical-align:middle;}
 .pSubtotal{width:100px;color:#EA5404;font-weight:bold;}
 .pInventory{width:120px;}
 .pOperator{width:120px;}
-.cart_pimg{border: 1px solid #EEEEEE;display: inline;float: left;height: 60px;margin-right: 10px;overflow: hidden;width: 60px;}
+.cart_pimg{border: 1px solid #eee;display:inline;float:left;height:60px;margin-right:10px;overflow:hidden;width:60px;}
 .cart_pname{color: #6B6B6B;line-height: 20px;overflow: hidden;}
 .cartAmount{margin: 1px auto;width: 75px;height: 18px;overflow: hidden;}
 a.cartCountBtn,input.amount {float: left;font-size: 12px;vertical-align: middle;border: 1px solid #cacaca;overflow: hidden;text-align: center;}
@@ -51,7 +51,6 @@ input.amount{float:left;font-size:12px;height:14px;line-height: 14px;overflow: h
 .cartJsuan{margin:0 auto;width: 1200px;text-align: right;padding: 10px;}
 .goshop{height: 28px;width: 73px;border: 1px solid #a5cf69;color: #666666;margin: 0 10px 0 0;cursor: pointer;}
 .jiesuan{background: #6e9b0c;height:45px;width:150px;border:0;color:#FFF;text-align:center;font-size: 16px;font-weight: bold;cursor: pointer;}
-
 
 
 .body-box{width:100%;height:100%;opacity:0.1;position:fixed;background:rgb(137, 101, 43);z-index:1000;top:0;display:none;}
